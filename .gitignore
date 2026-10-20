@@ -1,4 +1,21 @@
-node_modules/
-.next/
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Build and local files
+dist/
+*.log
+
+# Local environment files
 .DS_Store
+
+# Downloaded packages
+cloudflared-linux-amd64.deb
